@@ -5,8 +5,8 @@ This repository contains a comprehensive deep-learning pipeline for lung cancer 
 ## 🎯 Project Overview
 
 The project employs a teacher-student knowledge distillation framework where:
-- **Teacher Models**: Pre-trained EfficientNet (B0) architectures serve as high-capacity teachers
-- **Student Models**: Lightweight custom CNN3 architecture learn from teacher guidance
+- **Teacher Model**: Pre-trained EfficientNet (B0) architectures serve as high-capacity teachers
+- **Student Model**: Lightweight custom CNN3 architecture learn from teacher guidance
 - **Multi-modal Input**: Processes both CT scans and histopathology images
 - **Binary Classification**: Distinguishes between non-cancerous and cancerous cases
 
@@ -294,6 +294,6 @@ For technical issues or questions:
 
 ---
 
-**Last Updated**: [Current Date]
+**Last Updated**: [22 june 2025]
 **Version**: 1.0.0
 **Tested Environment**: Python 3.8+ | PyTorch 1.12+ | CUDA 11.8+ 
